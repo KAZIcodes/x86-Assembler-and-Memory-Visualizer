@@ -1,0 +1,14 @@
+bOos:
+INC di
+JMP first
+PUSH 113
+jmp myLabel
+PUSH cx
+PUSH edx
+myLabel:
+PUSH 127723727
+AND ax, si
+bashe:
+jMp bOos
+inc eax
+POp eax
